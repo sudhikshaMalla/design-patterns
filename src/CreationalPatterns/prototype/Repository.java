@@ -2,7 +2,7 @@ package CreationalPatterns.prototype;
 
 import java.util.ArrayList;
 
-public class Repository implements Cloneable{
+public class Repository implements Prototype, Cloneable{
     private StringBuilder repositoryName;
     private StringBuilder readMe;
     private ArrayList<String> branches;
