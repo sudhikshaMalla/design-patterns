@@ -10,10 +10,7 @@ public class Queue implements Collection{
     ArrayList<Integer> collection = new ArrayList<Integer>();
 
     public Iterator iterator() {
-        if(itr==null) {
-            itr = new QueueIterator(collection,0);
-        }
-        return itr;
+        return new QueueIterator(collection,0);
     }
 
     public void add(int val) {

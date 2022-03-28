@@ -30,5 +30,11 @@ public class Main {
         while (itrQ.hasNext()) {
             System.out.println(itrQ.next());
         }
+
+        Iterator itrQ1 = queue.iterator();
+        System.out.println("\n\nQueue Elements are ::");
+        while (itrQ1.hasNext()) {
+            System.out.println(itrQ1.next());
+        }
     }
 }
