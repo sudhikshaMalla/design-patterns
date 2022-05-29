@@ -1,10 +1,10 @@
 package structuralPatterns.decoratorPattern.decorators;
 
-import structuralPatterns.decoratorPattern.SocialMedia;
+import structuralPatterns.decoratorPattern.Application;
 
 public class Reels extends FeatureDecorator {
 
-    public Reels(SocialMedia socialMedia) {
+    public Reels(Application socialMedia) {
         this.socialMedia = socialMedia;
     }
 

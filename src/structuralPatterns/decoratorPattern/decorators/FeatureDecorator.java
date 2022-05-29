@@ -1,10 +1,10 @@
 package structuralPatterns.decoratorPattern.decorators;
 
-import structuralPatterns.decoratorPattern.SocialMedia;
+import structuralPatterns.decoratorPattern.Application;
 
-public abstract class FeatureDecorator extends SocialMedia {
+public abstract class FeatureDecorator extends Application {
 
-    SocialMedia socialMedia;
+    Application socialMedia;
 
     public abstract int memory();
 }

@@ -1,8 +1,8 @@
 package structuralPatterns.decoratorPattern;
 
-public abstract class SocialMedia {
+public abstract class Application {
 
-    String description = "Social Media App for messaging";
+    String description = "Application";
 
     public String getDescription() {
         return description;

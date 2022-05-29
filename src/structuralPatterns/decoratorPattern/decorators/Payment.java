@@ -1,10 +1,10 @@
 package structuralPatterns.decoratorPattern.decorators;
 
-import structuralPatterns.decoratorPattern.SocialMedia;
+import structuralPatterns.decoratorPattern.Application;
 
 public class Payment extends FeatureDecorator{
 
-    public Payment(SocialMedia socialMedia) {
+    public Payment(Application socialMedia) {
         this.socialMedia = socialMedia;
     }
 

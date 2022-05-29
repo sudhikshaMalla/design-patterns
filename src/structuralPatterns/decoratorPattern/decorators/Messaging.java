@@ -2,19 +2,20 @@ package structuralPatterns.decoratorPattern.decorators;
 
 import structuralPatterns.decoratorPattern.Application;
 
-public class Status extends FeatureDecorator{
+public class Messaging extends FeatureDecorator{
 
-    public Status(Application socialMedia) {
+    public Messaging(Application socialMedia) {
         this.socialMedia = socialMedia;
     }
 
     @Override
     public String getDescription() {
-        return socialMedia.getDescription() + " with status";
+        return socialMedia.getDescription() + " with messaging";
     }
 
     @Override
     public int memory() {
-        return socialMedia.memory() + 20;
+        return socialMedia.memory() + 5;
     }
+
 }
