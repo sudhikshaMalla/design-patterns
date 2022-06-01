@@ -1,4 +1,4 @@
-package com.demo.design.patterns.singleton;
+package creationalPatterns.singletonPattern;
 
 public class Server {
     static Server serverInstance = null;
