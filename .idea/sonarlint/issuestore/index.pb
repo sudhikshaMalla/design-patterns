@@ -1,6 +1,4 @@
 
-`
-0src/CreationalPatterns/abstractFactory/Main.java,c/0/c023dad45dfe80c274e3df705ffa8bb92c542d40
 o
 ?src/CreationalPatterns/abstractFactory/factories/UIFactory.java,e/8/e8ce43163df28b9deab0d553df03915179ef5ca4
 w
