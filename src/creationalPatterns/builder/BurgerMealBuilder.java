@@ -1,4 +1,4 @@
-package CreationalPatterns.builder;
+package creationalPatterns.builder;
 
 public class BurgerMealBuilder {
     private String burger_name;
