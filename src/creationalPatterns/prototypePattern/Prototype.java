@@ -1,4 +1,4 @@
-package CreationalPatterns.prototype;
+package creationalPatterns.prototypePattern;
 
 public interface Prototype {
     Repository getShallowClone();
