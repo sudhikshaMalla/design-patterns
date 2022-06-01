@@ -1,4 +1,4 @@
-package com.demo.design.patterns.factory;
+package creationalPatterns.factoryPattern.phones;
 
 public class OnePlusPhone implements Phone{
     @Override

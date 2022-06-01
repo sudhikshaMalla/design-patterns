@@ -1,4 +1,9 @@
-package com.demo.design.patterns.factory;
+package creationalPatterns.factoryPattern;
+
+import creationalPatterns.factoryPattern.phones.AsusPhone;
+import creationalPatterns.factoryPattern.phones.IPhone;
+import creationalPatterns.factoryPattern.phones.OnePlusPhone;
+import creationalPatterns.factoryPattern.phones.Phone;
 
 public class PhoneFactory {
 

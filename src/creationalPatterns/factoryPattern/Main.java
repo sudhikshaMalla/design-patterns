@@ -1,6 +1,8 @@
-package com.demo.design.patterns.factory;
+package creationalPatterns.factoryPattern;
 
-public class FactoryMain {
+import creationalPatterns.factoryPattern.phones.Phone;
+
+public class Main {
     public static void main(String[] args) {
         PhoneFactory phoneFactory = new PhoneFactory();
 

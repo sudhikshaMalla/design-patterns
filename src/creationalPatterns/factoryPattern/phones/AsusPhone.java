@@ -1,4 +1,4 @@
-package com.demo.design.patterns.factory;
+package creationalPatterns.factoryPattern.phones;
 
 public class AsusPhone implements Phone{
     @Override
